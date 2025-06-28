@@ -1,0 +1,18 @@
+.navbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    section ul{
+        gap: 30px;
+    }
+    section ul li{
+        list-style: none;
+    }
+    section ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+}
